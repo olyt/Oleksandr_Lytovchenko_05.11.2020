@@ -1,0 +1,21 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 70%;
+  height: 80%;
+  background: black;
+  z-index: 15;
+  box-sizing: border-box;
+  padding: 25px;
+
+  &__btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: transparent;
+  }
+}

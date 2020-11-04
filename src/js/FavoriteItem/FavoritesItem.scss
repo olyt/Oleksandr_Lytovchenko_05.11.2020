@@ -1,0 +1,16 @@
+.favorites {
+  &__list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+  &__name {
+    font-size: 20px;
+  }
+
+  &__btn {
+    background-color: transparent;
+  }
+}

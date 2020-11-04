@@ -1,0 +1,39 @@
+.movie-item {
+  text-align: center;
+  position: relative;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #F9F7F7;
+
+
+  &__img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  &__fav-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: transparent;
+    outline: none;
+  }
+
+  &__desc-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+  }
+
+  &__head {
+    font-size: 20px;
+    margin: 15px 0;
+  }
+
+  &__year {
+    font-size: 17px;
+  }
+}
